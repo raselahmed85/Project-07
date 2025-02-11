@@ -84,17 +84,12 @@ ul li a{
 }
 
 
-
-.main-container{
-    /* border: 2px solid black; */
-}
 .images{
     width: 75%;
     margin: 30px auto;
     display: flex;
     flex-direction: column;
     row-gap: 20px;
-    /* border: 2px solid black; */
 }
 .images-01{
     height: 100vh;
@@ -135,9 +130,7 @@ ul li a{
 
 
 .contact{
-    /* border: 2px solid black; */
     padding: 0 20px;
-    /* height: 100vh; */
     background-color: rgb(246, 246, 246);
 }
 
@@ -229,4 +222,4 @@ input{
 
 
 
-/* Last update file 11-02-2025 Day of Thuresday  02:45pm */
+Last update file 11-02-2025 Day of Thuresday  02:45pm

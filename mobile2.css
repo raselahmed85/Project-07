@@ -1,0 +1,254 @@
+@media screen and (max-width:400px) {
+    
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .container{
+        /* border: 2px solid black; */
+        width: 400px;
+        margin:  0 auto;
+        height: auto;
+        
+    }
+
+    .header-continer{
+        border:  1px solid black;
+        height: 40vh;
+        background-image: url(images/janis-ringli-AFxYcoA9LGM-unsplash.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+
+    .name-div{
+        border: 1px solid rgb(231, 231, 231);
+        width: 200px;
+        margin: 0 auto;
+        margin-top:40px;
+        background-color: rgba(0, 0, 0, 0.384);
+    }
+
+    .name-div h2{
+        font-size: 25px;
+        color: #abf34d;
+        font-family:'Bebas Neue';
+        font-weight: normal;
+        letter-spacing: 5px ;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .name-div p{
+        font-size:15px;
+        color: #abf34d;
+        letter-spacing: 5px;
+        font-family: "Gruppo";
+        text-align: center;
+        margin-bottom: 15px;
+        font-weight: bold;
+    
+    }
+
+    .nav-container{
+        width: 85%;
+        border-radius: 5px;
+        position: absolute;
+        margin-top: 80px;
+        margin-left:30px; 
+        background-color: rgb(214, 214, 214);
+        border: 2px solid whitesmoke;
+    }
+
+    .nav-container ul{
+        display: flex;
+        justify-content:space-evenly;
+        align-items:center;
+        color: rgb(0, 0, 0);
+        width:100%;
+    
+    }
+
+    ul li a{
+        text-decoration: none;
+        color: black;
+        padding: 0 21px;
+    }
+
+
+    .nav-container ul li {
+        list-style: none;
+        font-size: 15px;
+        text-align: center;
+        padding: 10px;
+        cursor: pointer;
+        border-radius: 5px;
+    
+    }
+
+    .nav-container ul li:hover{
+        background-color: rgb(168, 168, 168);
+    }
+
+
+
+
+    .images{
+        width: 95%;
+        margin:10px auto;
+        display: flex;
+        flex-direction: column;
+        row-gap: 5px;
+    }
+    .images-01{
+        height: 50vh;
+        background-image: url(images/annie-spratt-H33FOyRKgfk-unsplash.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        border-radius: 2px;
+    }
+
+    images-02{
+        height: 50vh;
+        background-image: url(images/colin-watts-g9aYfZb7_c8-unsplash.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        border-radius: 2px;
+    }
+    .images-03{
+        height: 50vh;
+        background-image: url(images/janis-ringli-AFxYcoA9LGM-unsplash.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        border-radius: 2px;
+    }
+    .images-04{
+        height: 50vh;
+        background-image: url(images/prydumano-design-kE6Luqa4bBQ-unsplash.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        border-radius: 2px;
+    }
+    .images-05{
+        height: 50vh;
+        background-image: url(images/সিলেট_আন্তর্জাতিক_ক্রিকেট_স্টেডিয়াম.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        border-radius: 2px;
+    }
+
+    .contact{
+        padding: 0 10px;
+        background-color: rgb(246, 246, 246);
+    }
+
+    .contact h2{
+        font-size:25px;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    .contact p{
+        font-size: 15px;
+        text-align: justify;
+        padding-bottom: 20px;
+    }
+    .input-box{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    label{
+        font-size: 18px;
+        font-family: "Gruppo";
+        font-weight: bold;
+        padding:8px 0 ;
+    }
+
+
+    input{
+        height: 30px;
+        border: 1px solid rgb(204, 204, 204);
+        border-radius: 2px;
+        padding: 0 8px;
+        font-size: 15px;
+        letter-spacing: 1px;
+    }
+    ::placeholder{
+        font-size: 13px;
+    }
+    .btn{
+        font-size: 18px;
+        padding: 5px;
+        border-radius: 10px;
+        border: none;
+        background-color: rgb(212, 212, 212);
+    
+    }
+    .btn:hover{
+        background-color: rgb(137, 137, 137);
+        cursor: pointer;
+    }
+
+    .mainusPart{
+        display: none;
+    }
+
+
+    .footer-container{
+        background-color: #f1f1f1;
+        width: 100%;
+        height:10vh;
+        position: relative;
+    }
+
+    .footer-contant{
+        width: 50%;
+        height: 20px;
+        margin: 0 auto;
+    }
+    .footer-pera{
+        text-align: center;
+        font-size: 15px;
+        padding-top:20px;
+    }
+    .all-rese{
+        display: none;
+    }
+
+    .back-btn{
+        display: none;
+    }
+
+    /* .back-btn{
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        background-color: rgb(0, 13, 80);
+        color: white;
+        font-size: 15px;
+        border: none;
+        border-radius: 5px;
+        margin-left: 90%;
+    }
+    .back-btn a{
+        color: white;
+    }
+    .fa-chevron-up{
+        padding: 12px;
+    }
+    .back-btn:hover{
+        background-color:gray;
+    } */
+    
+    
+
+}
