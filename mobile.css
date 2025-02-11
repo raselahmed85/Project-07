@@ -1,5 +1,5 @@
     
-@media only screen and (min-width:350px) {
+@media only screen and (max-width:350px) {
     
     .header-continer{
         height: 30vh;
