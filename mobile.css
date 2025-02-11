@@ -1,5 +1,5 @@
     
-@media only screen and (max-width:350px) {
+@media only screen and (max-width:550px) {
     
     .header-continer{
         height: 30vh;
@@ -48,19 +48,19 @@
     }
 
     .images-01{
-        height: 30vh;
+        height: 300px;
     }
     .images-02{
-        height: 30vh;
+        height: 300px;
     }
     .images-03{
-        height: 30vh;
+        height: 300px;
     }
     .images-04{
-        height: 30vh;
+        height: 300px;
     }
     .images-05{
-        height: 30vh;
+        height: 300px;
     }
 
     .contact{
