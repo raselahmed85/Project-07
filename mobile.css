@@ -1,0 +1,130 @@
+    
+@media only screen and (max-width:350px) {
+    
+    .header-continer{
+        height: 30vh;
+    }
+    .name-div{
+        width: 50%;
+        margin-top: 20px;
+        border: none;
+
+    }
+
+    .name-div h2{
+        font-size: 25px;
+        letter-spacing:4px ;
+        margin-top: 10px;
+    }
+
+    .name-div p{
+        font-size:12px;
+        letter-spacing:4px;
+        padding-bottom: 10px;
+        /* margin-bottom: 10px; */
+    
+    }
+
+    .nav-container{
+        width: 70%;
+        margin-top: 28px;
+        margin-left: 15%;
+    }
+
+
+    ul li a{
+        padding: 0 15px;
+    }
+    
+    .nav-container ul li {
+        font-size: 11px;
+        padding: 8px;
+    }
+
+    .images{
+        width: 95%;
+        margin: 5px auto;
+        row-gap: 10px;
+    }
+
+    .images-01{
+        height: 50vh;
+    }
+    .images-02{
+        height: 50vh;
+    }
+    .images-03{
+        height: 50vh;
+    }
+    .images-04{
+        height: 50vh;
+    }
+    .images-05{
+        height: 50vh;
+    }
+
+    .contact{
+        padding: 0 10px;
+        /* height: 50vh; */
+    }
+    .mainusPart{
+        display: none;
+    }
+
+    .contact h2{
+        font-size:25px;
+        padding: 15px 0;
+    }
+
+    .contact p{
+        font-size: 15px;
+        padding-bottom: 20px;
+    }
+
+    label{
+        font-size: 15px;
+    }
+
+    input{
+        height: 25px;
+        padding: 0 5px;
+        font-size: 10px;
+    }
+    ::placeholder{
+        font-size: 12px;
+    }
+
+    .btn{
+        font-size: 15px;
+    }
+
+    hr{
+        display: none;
+    }
+
+
+
+    .footer-container{
+        width: 95%;
+        height:60px;
+        margin: 0 auto;
+        font-family: 'Gruppo';
+    }
+    
+    .footer-pera{
+        text-align: center;
+        font-size: 12px;
+        padding-top:20px;
+    }
+    
+    .back-btn{
+        display: none;
+    }
+
+
+
+}
+
+
+
+/* Last update file 11-02-2025 Day of Thuresday  02:45pm */
