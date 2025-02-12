@@ -1,4 +1,4 @@
-@media screen and (max-width:400px) {
+@media screen and (max-width:300px) {
     
     *{
         margin: 0;
@@ -7,8 +7,7 @@
     }
 
     .container{
-        /* border: 2px solid black; */
-        width: 400px;
+        width:100%;
         margin:  0 auto;
         height: auto;
         
@@ -26,9 +25,10 @@
 
     .name-div{
         border: 1px solid rgb(231, 231, 231);
-        width: 200px;
+        width: 50%;
+        border: none;
         margin: 0 auto;
-        margin-top:40px;
+        margin-top:10%;
         background-color: rgba(0, 0, 0, 0.384);
     }
 
@@ -54,7 +54,7 @@
     }
 
     .nav-container{
-        width: 85%;
+        width: 80%;
         border-radius: 5px;
         position: absolute;
         margin-top: 80px;
@@ -75,7 +75,7 @@
     ul li a{
         text-decoration: none;
         color: black;
-        padding: 0 21px;
+        padding: 0 20px;
     }
 
 
@@ -112,7 +112,7 @@
         border-radius: 2px;
     }
 
-    images-02{
+    .images-02{
         height: 50vh;
         background-image: url(images/colin-watts-g9aYfZb7_c8-unsplash.jpg);
         background-size: cover;
